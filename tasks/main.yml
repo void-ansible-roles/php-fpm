@@ -16,4 +16,4 @@
   file: path=/etc/php/conf.d state=directory owner=root group=root mode=0755
 
 - name: Enable php-fpm
-  file: src=/etc/sv/php-fpm dest=/var/service/php-fpm state=link owner=root group=root mode=0755
+  file: src=/etc/sv/php-fpm dest=/var/service/php-fpm state=link
